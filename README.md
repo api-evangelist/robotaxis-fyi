@@ -64,5 +64,130 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Robotaxis is a company surfaced via the API Evangelist harvest backlog (source: new-submission) and added to the network as a stub for full-pipeline profiling.
-- https://robotaxis.fyi
+Robotaxis aggregates and provides data on robotaxi services worldwide, covering operators, service areas, booking apps, and operational status. The platform lists over 40 robotaxi services across 18 regions, offering guides, comparisons, and detailed listings to help users understand and access autonomous ride‑hailing options.
+
+**Areas:** Company · Autonomous · Transportation · Mobility · Data
+
+## Robotaxis on APIs.io
+
+Everything profiled for Robotaxis is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/robotaxis-fyi/](https://apis.io/providers/robotaxis-fyi/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Robotaxis Academy API](https://apis.io/apis/robotaxis-fyi/robotaxis-fyi-academy-api/) — The Academy API from Robotaxis — 2 operation(s) for academy.
+- [Robotaxis Admin API](https://apis.io/apis/robotaxis-fyi/robotaxis-fyi-admin-api/) — The Admin API from Robotaxis — 166 operation(s) for admin.
+- [Robotaxis Categories API](https://apis.io/apis/robotaxis-fyi/robotaxis-fyi-categories-api/) — The Categories API from Robotaxis — 1 operation(s) for categories.
+- [Robotaxis Certificates API](https://apis.io/apis/robotaxis-fyi/robotaxis-fyi-certificates-api/) — The Certificates API from Robotaxis — 1 operation(s) for certificates.
+- [Robotaxis Listings API](https://apis.io/apis/robotaxis-fyi/robotaxis-fyi-listings-api/) — The Listings API from Robotaxis — 2 operation(s) for listings.
+- [Robotaxis Places API](https://apis.io/apis/robotaxis-fyi/robotaxis-fyi-places-api/) — The Places API from Robotaxis — 1 operation(s) for places.
+- [Robotaxis Product Categories API](https://apis.io/apis/robotaxis-fyi/robotaxis-fyi-product-categories-api/) — The Product Categories API from Robotaxis — 1 operation(s) for product categories.
+- [Robotaxis Products API](https://apis.io/apis/robotaxis-fyi/robotaxis-fyi-products-api/) — The Products API from Robotaxis — 2 operation(s) for products.
+- [Robotaxis Sources API](https://apis.io/apis/robotaxis-fyi/robotaxis-fyi-sources-api/) — The Sources API from Robotaxis — 1 operation(s) for sources.
+- [Robotaxis Sponsor API](https://apis.io/apis/robotaxis-fyi/robotaxis-fyi-sponsor-api/) — The Sponsor API from Robotaxis — 2 operation(s) for sponsor.
+- [Robotaxis Stats API](https://apis.io/apis/robotaxis-fyi/robotaxis-fyi-stats-api/) — The Stats API from Robotaxis — 1 operation(s) for stats.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Robotaxis Agentic Access](https://apis.io/agentic-access/robotaxis-fyi/robotaxis-fyi-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [Certificate](https://apis.io/schemas/robotaxis-fyi/robotaxis-fyi-certificate/)
+- [Course](https://apis.io/schemas/robotaxis-fyi/robotaxis-fyi-course/)
+- [CourseDetail](https://apis.io/schemas/robotaxis-fyi/robotaxis-fyi-course-detail/)
+- [Listing](https://apis.io/schemas/robotaxis-fyi/robotaxis-fyi-listing/)
+- [ListingItem](https://apis.io/schemas/robotaxis-fyi/robotaxis-fyi-listing-item/)
+- [Product](https://apis.io/schemas/robotaxis-fyi/robotaxis-fyi-product/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Robotaxis Fyi Context](https://apis.io/jsonld/robotaxis-fyi/robotaxis-fyi-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [Robotaxis API Rules](https://apis.io/rules/robotaxis-fyi/robotaxis-fyi-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Robotaxis Domain Security](https://apis.io/security/robotaxis-fyi/robotaxis-fyi-domain-security/)
+- [Robotaxis Vulnerability Disclosure](https://apis.io/security/robotaxis-fyi/robotaxis-fyi-vulnerability-disclosure/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://robotaxis.fyi)
+- [Documentation](https://robotaxis.fyi/developers)
+- [Support](https://robotaxis.fyi/support)
+- [Terms of service](https://robotaxis.fyi/terms)
+- [Privacy policy](https://robotaxis.fyi/privacy)
+
+## API Evangelist rating
+
+**Kin Score 42.4** — developing · rubric 0.28.0 · scored 2026-11-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 51.9 |
+| Contract governance | 79.1 |
+| Operational transparency | 9.5 |
+| Developer ergonomics | 30.2 |
+| Access clarity | 17.0 |
+
+**Agent readiness 47.5** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | verified |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | yes |
+| Consent Identity | — |
+| Agent Card | conformant |
+| Dry Run Mode | yes |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 24.5** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/robotaxis-fyi/](https://apis.io/providers/robotaxis-fyi/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Robotaxis: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/robotaxis-fyi/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
